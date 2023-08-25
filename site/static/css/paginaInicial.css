@@ -1,0 +1,20 @@
+
+
+
+
+#mirrorModal {
+    display: none;
+}
+
+.close {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.menu{
+    background-color: bisque;
+    position: relative;
+    
+    
+}

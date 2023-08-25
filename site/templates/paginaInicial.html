@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEVEN Cosméticos</title>
+    <link rel="stylesheet" href="/static/css/paginaInicial.css">
+</head>
+<body>
+    <header>
+        <ol class="menu">
+            <li>pagina 1</li>
+            <li>pagina 2</li>
+            <li>link 1</li>
+            <li>link 2</li>
+        </ol>
+    </header>
+
+     <div class="product-container">
+        <div class="produto">
+            <img src="item1.jpg" alt="Item 1">
+            <button class="btnEspelho" onclick="abrirModal()">Experimentar no espelho</button>
+        </div>
+        <div class="produto">
+            <img src="item2.jpg" alt="Item 2">
+            <button class="btnEspelho" onclick="abrirModal()">Experimentar no espelho</button>
+        </div>
+        
+    </div>
+    
+    <div id="mirrorModal" class="modal">
+        <span class="close" onclick="fecharModal()">&times;</span>
+        <h2>Experimente os produtos</h2>
+        <video id="webcamMirror" autoplay></video>
+    </div> 
+        
+
+
+
+
+
+
+
+    <script src="/static/javascript/paginaInicial.js"></script>
+</body>
+</html>
